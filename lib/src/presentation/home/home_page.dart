@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
           ),
           TextButton(
             onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (context) => const CategoriesPage())),
-            child: Text("Categories"),
+            child: const Text("Categories"),
           ),
         ],
         title: const Text(

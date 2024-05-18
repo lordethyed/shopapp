@@ -63,7 +63,6 @@ class _AddItemState extends State<AddItem> {
           DropdownMenu<String>(
             initialSelection: selectedCatory,
             onSelected: (String? value) {
-              // This is called when the user selects an item.
               setState(() {
                 selectedCatory = value!;
               });
@@ -76,7 +75,6 @@ class _AddItemState extends State<AddItem> {
           DropdownMenu<String>(
             initialSelection: selectedCurrecy,
             onSelected: (String? value) {
-              // This is called when the user selects an item.
               setState(() {
                 selectedCatory = value!;
               });
