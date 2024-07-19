@@ -1,14 +1,14 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:module5/src/presentation/auth/auth_page.dart';
 
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
-
   @override
   Splash createState() => Splash();
 }
+
 
 class Splash extends State<SplashScreen> {
   @override
